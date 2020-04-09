@@ -97,7 +97,7 @@ https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-banco-de-dados-5647c
 https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
 
 
-# Cap4 - Best Pratices for naming (
+# Cap4 - Best Pratices for naming
 
 ## 4.1- Reasons for using a naming convention:
 
@@ -107,10 +107,9 @@ https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
 * To enable code quality review tools to focus their reporting mainly on significant issues other than syntax and style preferences.
 * To enable an easy workteam, its necessary some conventions.
 
-
 ## 4.2 - Padronizar formas de nomenclatura para elementos do db:
 
-* Não usar letras Maiúsculas (lowercase).
+* Usar somente letras minúsculas (lowercase).
 
 * Nomes que explicam o que o objeto faz:
 
@@ -126,14 +125,12 @@ https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
 * Comentar alterações em um código em produção;
 * Documentar decisões.
 
-# Cap5 - SQL commands
-
-1- Usar comandos em Maiusculo (UPPERCASE)
-
 source: https://www.sqlstyle.guide/pt-br/
 
 
 # Cap5 - Tipos de dados
+* Garantir integridade
+* Reduzir tamanho do armazenamento
 
 ####  Básico:
 
@@ -146,18 +143,14 @@ https://docs.microsoft.com/pt-br/sql/t-sql/data-types/ntext-text-and-image-trans
 
 # Cap6- Instruções
 
-#### Comments
---
-/**/
-
-#### Select
+## Select
 Select * from
 Select field1, field2 
 Aliases as
 Select Top / percent
 Select Distinct
 
-#### Filters
+## Filters
 Where
 And, Or, Not
 Null Values
@@ -170,25 +163,39 @@ Having
 Exists
 Any, All
 
-#### Order
+## Math operations
+*, /, +, - 
+< > <> =, >=, <=
+
+## Order
 Order By
 
-#### Agregators / Grouping / summary
+## Agregators / Grouping / summary
 Group By
 Min and Max
 Count, Avg, Sum
 
-#### Conditionals
+## Conditionals
 Case When
 
-#### Joins
+## Conversions
+Cast
+Convert
+
+## Joins
 Inner Join
 Left Join
 Right Join
 Full Join
 
-#### Unions
+## Unions
 Union
+Union all
+
+## Comments
+--
+/* 
+*/
 
 
 
