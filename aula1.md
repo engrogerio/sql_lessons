@@ -40,7 +40,8 @@ https://www.w3schools.com/sql/sql_intro.asp
 
 ## 2.3- Servir os dados quando solicitados via SQL query.
 
- 
+
+
 # Cap. 3 - Elementos padrão de um Banco de dados:
 
 ## 3.1- Tabelas - Armazenam os dados.
