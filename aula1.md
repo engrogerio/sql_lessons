@@ -107,7 +107,7 @@ https://www.w3schools.com/sql/sql_datatypes.asp
 
 #### Lista Detalhada SQL Server:
 
-https://docs.microsoft.com/pt-br/sql/t-sql/data-types/ntext-text-and-image-transact-sql?view=sql-server-ver15  
+https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
 
 
 # Cap. 7 - Instruções
