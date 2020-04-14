@@ -1,15 +1,13 @@
-# Cap1 -  SQL - Structured Query Language
+# Cap. 1 -  SQL - Structured Query Language
 
 https://www.w3schools.com/sql/sql_intro.asp
 
 
-# Cap2 - Funcionalidades , "Flavors" e Elementos de um sistema de gerenciamento de banco de dados  (SGBD)
+# Cap. 2 - Funcionalidades
  
-## 2.1 Funcionalidades: 
- 
-### 2.1.1- Armazenar dados em Tabelas e distribuir conforme solicitado atraves de queries SQL.
+## 2.1 - Armazenar dados em Tabelas e distribuir conforme solicitado atraves de queries SQL.
 
-#### Tabelas podem conter dados de Relatórios, Configuração, Cadastros, Dados transacionais, logs e outros. 
+### Tabelas podem conter dados de Relatórios, Configuração, Cadastros, Dados transacionais, logs e outros. 
 
 * **Exemplo tabela de Relatório**
 
@@ -36,42 +34,43 @@ https://www.w3schools.com/sql/sql_intro.asp
 ![]()
 
 
-### 2.1.2- Garantir a consistência dos dados armazenados.
+## 2.2- Garantir a consistência dos dados armazenados.
 
  * Para estudo: https://www.devmedia.com.br/integridade-de-dados-parte-01/8831
 
-### 2.1.3- Servir os dados quando solicitados via SQL query.
+## 2.3- Servir os dados quando solicitados via SQL query.
 
  
-## 2.2- Elementos padrão de um Banco de dados:
+# Cap. 3 - Elementos padrão de um Banco de dados:
 
-### 2.2.1- Tabelas - Armazenam os dados.
+## 3.1- Tabelas - Armazenam os dados.
 
-* Cada coluna deve ter um nome e um tipo
+* Cada coluna deve ter um nome e um tipo - cap.
 
 https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
 
 https://www.analyticsvidhya.com/wp-content/uploads/2015/12/Table2.png
 
 
-### 2.2.2- Relacionamentos
+## 3.2- Relacionamentos
 
-* Banco de dados: Relacionamento entre várias tabelas para garantir integridade:
+* Relacionamento entre tabelas, existe para garantir a integridade dos dados:
 
 https://www.mantisbt.org/docs/master/en-US/Developers_Guide/html/images/erd.png
 
 http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159.1510/html/iqintro/A112233.htm
 
 
-### 2.2.3- Views - Exibição de dados das tabelas calculados, formatados, filtrados e classificados.
+## 3.3- Views - Exibição de dados das tabelas calculados, formatados, filtrados e classificados.
 
-### 2.2.4- Temporary Tables
+## 3.4- Temporary Tables
 
-### 2.2.5- Functions, procedures e triggers - Alteram os dados
+## 3.5- Functions, procedures e triggers - Alteram os dados
 
-### 2.2.6- Usuários e permissões.
+## 3.6- Usuários e permissões.
 
-## 2.3- Alguns SGBD mais usados hoje:
+
+# Cap. 4 - Alguns SGBD mais usados hoje:
 
 **SQL**
 
@@ -86,7 +85,7 @@ http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159
 * MongoDB (www.mongodb.com), etc.
     
 
-# Cap3 - Conceitos de Normalização
+# Cap. 5 - Conceitos de Normalização
 
 A Normalização é necessária para evitar redundâncias e garantir a integridade de dados armazenados em TABELAS de um banco de dados.
 
@@ -97,51 +96,20 @@ https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-banco-de-dados-5647c
 https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
 
 
-# Cap4 - Best Pratices for naming
-
-## 4.1- Reasons for using a naming convention:
-
-* SQL é uma linguagem de programação. Um código é escrito uma vez por 1 pessoa e lido muitas vezes por muitas pessoas.
-* To reduce the effort needed to read and understand source code.
-* To enable code reviews to focus on more important issues than arguing over syntax and naming standards.
-* To enable code quality review tools to focus their reporting mainly on significant issues other than syntax and style preferences.
-* To enable an easy workteam, its necessary some conventions.
-
-## 4.2 - Padronizar formas de nomenclatura para elementos do db:
-
-* Usar somente letras minúsculas (lowercase).
-
-* Nomes que explicam o que o objeto faz:
-
-    Tabela "product", procedure "apply_discount_adjustment", view: "produtos_inativos", etc.
-    
-* Usar underscore _ no lugar no espaço.
-
-* Não usar acentos. Dê preferência para palavras em inglês.
-
-## 4.3 - Comentar o código quando necessário:
-
-* Explicar o que seu código faz em termos do negócio;
-* Comentar alterações em um código em produção;
-* Documentar decisões.
-
-source: https://www.sqlstyle.guide/pt-br/
-
-
-# Cap5 - Tipos de dados
-* Garantir integridade
+# Cap. 6 - Tipos de dados
+* Garantir integridade dos dados.
 * Reduzir tamanho do armazenamento
 
-####  Básico:
+#### Lista Básica:
 
 https://www.w3schools.com/sql/sql_datatypes.asp
 
-#### Detalhado:
+#### Lista Detalhada SQL Server:
 
 https://docs.microsoft.com/pt-br/sql/t-sql/data-types/ntext-text-and-image-transact-sql?view=sql-server-ver15  
 
 
-# Cap6- Instruções
+# Cap. 7 - Instruções
 
 ## Select
 Select * from
@@ -196,7 +164,3 @@ Union all
 --
 /* 
 */
-
-
-
-
