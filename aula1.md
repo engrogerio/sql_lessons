@@ -89,7 +89,7 @@ http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159
 
 A Normalização é necessária para evitar redundâncias e garantir a integridade de dados armazenados em TABELAS de um banco de dados.
 
-[ver exercício](/normalizacao_exercicio.xlsx)
+[baixar exercício](https://github.com/engrogerio/sql_lessons/raw/master/normalizacao_exercicio.xlsx)
 
 https://medium.com/@diegobmachado/normaliza%C3%A7%C3%A3o-em-banco-de-dados-5647cdf84a12
 
