@@ -1,11 +1,11 @@
-# Cap. 1 -  SQL - Structured Query Language
+# Cap. 1 -  SQL - Structured Query Language - instruções enviadas para um SGBD.
 
 https://www.w3schools.com/sql/sql_intro.asp
 
 
 # Cap. 2 - Funcionalidades SGBD - Sistema de Gerenciamento de Bancos de Dados
  
-## 2.1 - Armazenar dados em Tabelas e distribuir conforme solicitado atraves de queries SQL.
+## 2.1 - Armazenar dados em Tabelas e executar comandos conforme solicitado atraves de queries SQL.
 
 ### Tabelas podem conter dados de Relatórios, Configuração, Cadastros, Dados transacionais, logs e outros. 
 
@@ -60,7 +60,7 @@ https://www.w3schools.com/sql/sql_intro.asp
 * MongoDB (www.mongodb.com), etc.
     
 
-# Cap. 4 - Elementos padrão de um Banco de dados:
+# Cap. 4 - Elementos padrão de um Banco de dados (criados com instruções SQL)
 
 ## 4.1- Tabelas - Armazenam os dados.
 
