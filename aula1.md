@@ -3,7 +3,7 @@
 https://www.w3schools.com/sql/sql_intro.asp
 
 
-# Cap. 2 - Funcionalidades SGBD - Sistema de Gestão de Bancos de Dados
+# Cap. 2 - Funcionalidades SGBD - Sistema de Gerenciamento de Bancos de Dados
  
 ## 2.1 - Armazenar dados em Tabelas e distribuir conforme solicitado atraves de queries SQL.
 
@@ -45,41 +45,7 @@ https://www.w3schools.com/sql/sql_intro.asp
 ## 2.5- Controle de Permissões
 
 
-# Cap. 3 - Elementos padrão de um Banco de dados:
-
-## 3.1- Tabelas - Armazenam os dados.
-
-* A própria tabela deve ter um nome e cada campo deve ter um nome e um tipo - (cap.6)
-
-https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
-
-https://cdn.sqlservertutorial.net/wp-content/uploads/SQL-Server-Data-Types.png
-
-
-## 3.2- Constraints definidos na criação das tabelas
-
-https://www.w3schools.com/sql/sql_constraints.asp
-
-
-## 3.3- Relacionamentos
-
-* Relacionamento entre tabelas, existe para garantir a integridade dos dados.
-
-https://www.mantisbt.org/docs/master/en-US/Developers_Guide/html/images/erd.png
-
-http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159.1510/html/iqintro/A112233.htm
-
-
-## 3.4- Views - SQL scripts para exibição de dados calculados, formatados, filtrados e classificados.
-
-## 3.5- Temporary Tables
-
-## 3.6- Functions, Procedures e Triggers - SQL scripts para alterar dados das tabelas.
-
-## 3.7- Usuários e permissões.
-
-
-# Cap. 4 - Alguns SGBD mais usados hoje:
+# Cap. 3 - Alguns SGBD mais usados hoje:
 
 **SQL**
 
@@ -93,6 +59,40 @@ http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159
 
 * MongoDB (www.mongodb.com), etc.
     
+
+# Cap. 4 - Elementos padrão de um Banco de dados:
+
+## 4.1- Tabelas - Armazenam os dados.
+
+* A própria tabela deve ter um nome e cada campo deve ter um nome e um tipo - (cap.6)
+
+https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
+
+https://cdn.sqlservertutorial.net/wp-content/uploads/SQL-Server-Data-Types.png
+
+
+## 4.2- Constraints definidos na criação das tabelas
+
+https://www.w3schools.com/sql/sql_constraints.asp
+
+
+## 4.3- Relacionamentos
+
+* Relacionamento entre tabelas, existe para garantir a integridade dos dados.
+
+https://www.mantisbt.org/docs/master/en-US/Developers_Guide/html/images/erd.png
+
+http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159.1510/html/iqintro/A112233.htm
+
+
+## 4.4- Views - SQL scripts para exibição de dados calculados, formatados, filtrados e classificados.
+
+## 4.5- Temporary Tables
+
+## 4.6- Functions, Procedures e Triggers - SQL scripts para alterar dados das tabelas.
+
+## 4.7- Usuários e permissões.
+
 
 # Cap. 5 - Conceitos de Normalização
 
