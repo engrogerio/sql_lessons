@@ -3,7 +3,7 @@
 https://www.w3schools.com/sql/sql_intro.asp
 
 
-# Cap. 2 - Funcionalidades
+# Cap. 2 - Funcionalidades SGBD
  
 ## 2.1 - Armazenar dados em Tabelas e distribuir conforme solicitado atraves de queries SQL.
 
@@ -41,21 +41,20 @@ https://www.w3schools.com/sql/sql_intro.asp
 ## 2.3- Servir os dados quando solicitados via SQL query.
 
 
-
 # Cap. 3 - Elementos padrão de um Banco de dados:
 
 ## 3.1- Tabelas - Armazenam os dados.
 
-* Cada coluna deve ter um nome e um tipo - cap.
+* A própria tabela deve ter um nome e cada campo deve ter um nome e um tipo - (cap.6)
 
 https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
 
-https://www.analyticsvidhya.com/wp-content/uploads/2015/12/Table2.png
+https://cdn.sqlservertutorial.net/wp-content/uploads/SQL-Server-Data-Types.png
 
 
 ## 3.2- Relacionamentos
 
-* Relacionamento entre tabelas, existe para garantir a integridade dos dados:
+* Relacionamento entre tabelas, existe para garantir a integridade dos dados. (Constraints no db):
 
 https://www.mantisbt.org/docs/master/en-US/Developers_Guide/html/images/erd.png
 
@@ -66,7 +65,7 @@ http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159
 
 ## 3.4- Temporary Tables
 
-## 3.5- Functions, procedures e triggers - Alteram os dados
+## 3.5- Functions, Procedures e Triggers - Alteram os dados
 
 ## 3.6- Usuários e permissões.
 
@@ -100,6 +99,8 @@ https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
 # Cap. 6 - Tipos de dados
 * Garantir integridade dos dados.
 * Reduzir tamanho do armazenamento
+
+https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
 
 #### Lista Básica:
 
