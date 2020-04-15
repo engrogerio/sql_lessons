@@ -3,7 +3,7 @@
 https://www.w3schools.com/sql/sql_intro.asp
 
 
-# Cap. 2 - Funcionalidades SGBD
+# Cap. 2 - Funcionalidades SGBD - Sistema de Gestão de Bancos de Dados
  
 ## 2.1 - Armazenar dados em Tabelas e distribuir conforme solicitado atraves de queries SQL.
 
@@ -40,6 +40,10 @@ https://www.w3schools.com/sql/sql_intro.asp
 
 ## 2.3- Servir os dados quando solicitados via SQL query.
 
+## 2.4- Executar SQL queries em frequencias determinadas (Jobs)
+
+## 2.5- Controle de Permissões
+
 
 # Cap. 3 - Elementos padrão de um Banco de dados:
 
@@ -52,22 +56,27 @@ https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gi
 https://cdn.sqlservertutorial.net/wp-content/uploads/SQL-Server-Data-Types.png
 
 
-## 3.2- Relacionamentos
+## 3.2- Constraints definidos na criação das tabelas
 
-* Relacionamento entre tabelas, existe para garantir a integridade dos dados. (Constraints no db):
+https://www.w3schools.com/sql/sql_constraints.asp
+
+
+## 3.3- Relacionamentos
+
+* Relacionamento entre tabelas, existe para garantir a integridade dos dados.
 
 https://www.mantisbt.org/docs/master/en-US/Developers_Guide/html/images/erd.png
 
 http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc38159.1510/html/iqintro/A112233.htm
 
 
-## 3.3- Views - Exibição de dados das tabelas calculados, formatados, filtrados e classificados.
+## 3.4- Views - SQL scripts para exibição de dados calculados, formatados, filtrados e classificados.
 
-## 3.4- Temporary Tables
+## 3.5- Temporary Tables
 
-## 3.5- Functions, Procedures e Triggers - Alteram os dados
+## 3.6- Functions, Procedures e Triggers - SQL scripts para alterar dados das tabelas.
 
-## 3.6- Usuários e permissões.
+## 3.7- Usuários e permissões.
 
 
 # Cap. 4 - Alguns SGBD mais usados hoje:
