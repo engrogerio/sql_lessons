@@ -14,6 +14,8 @@ https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?vi
 
 
 # Cap. 7 - Instructions CREATE / INSERT 1/2
+(SQLite)
+_Homework_01 and another diagrams
 
 ## CREATE
 CREATE TABLE table_name
@@ -36,13 +38,13 @@ SELECT TOP
 ### Constraints for table creation
 https://www.tutorialspoint.com/sqlite/sqlite_constraints.htm
 
-AUTOINCREMENT
-NOT NULL
-FOREIGNKEY
-PRIMARY KEY
-DEFAULT
-UNIQUE
-CHECK
+- AUTOINCREMENT 
+- NOT NULL 
+- FOREIGNKEY 
+- PRIMARY KEY 
+- DEFAULT 
+- UNIQUE 
+- CHECK 
 
 ### Cascade
 ON DELETE CASCADE
@@ -51,51 +53,53 @@ ON DELETE CASCADE
 DROP TABLE
 
 # Cap. 10 - Instruções SELECT 2/2 
-SELECT DISTICT
-SELECT TOP PERCENT
+- SELECT DISTICT
+- SELECT TOP PERCENT
 
 ## Filters
-Where
-And, Or, Not
-Null Values
-isnull
-Like
-Wildcards
-In
-Between
-Having
-Exists
-Any, All
+- WHERE
+- AND
+- OR
+- NOT
+- Null Values
+- ISNULL
+- LIKE
+- Wildcards
+- IN
+- BETWEEN
+- HAVING
+- EXISTS
+
 
 ## Math operations
 *, /, +, - 
 < > <> =, >=, <=
 
 ## Order
-Order By
-Desc
+- ORDER BY
+- DESC
 
 ## Agregators / Grouping / summary
-Group By
-Min and Max
-Count, Avg, Sum
+- GROUP BY
+- MIN and MAX
+- COUNT, AVG, SUM
 
 ## Conditionals
-Case When
+CASE WHEN
 
 ## Conversions
-Cast
-Convert
+CAST
+CONVERT
 
 ## Joins
-Inner Join
-Left Join
-Right Join
-Full Join
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL JOIN
 
 ## Unions
-Union
-Union all
+- UNION
+- UNION ALL
 
 ## Comments
 --
@@ -103,3 +107,4 @@ Union all
 */
 
 # Cap.11 - ALTER TABLE
+# Cap.12 - SQL Functions
