@@ -73,6 +73,7 @@ Any, All
 
 ## Order
 Order By
+Desc
 
 ## Agregators / Grouping / summary
 Group By
