@@ -13,7 +13,7 @@ https://www.w3schools.com/sql/sql_datatypes.asp
 https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
 
 
-# Cap. 7 - Instruções CREATE / ALTER 1/2
+# Cap. 7 - Instructions CREATE / INSERT 1/2
 
 ## CREATE
 CREATE TABLE table_name
@@ -31,7 +31,7 @@ SELECT field1, field2
 AS
 SELECT TOP
 
-# Cap. 9 - Constraints
+# Cap. 9 - Instructions CREATE / INSERT 2/2 
 
 ### Constraints for table creation
 https://www.tutorialspoint.com/sqlite/sqlite_constraints.htm
