@@ -1,21 +1,18 @@
 # Cap. 6 - Tipos de dados
 * Garantir integridade dos dados.
-* Reduzir tamanho do armazenamento
+* Reduzir tamanho do armazenamento.
 
-https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
-
-#### Lista Básica:
-
-https://www.w3schools.com/sql/sql_datatypes.asp
+#### SQLite
+https://www.sqlitetutorial.net/sqlite-data-types/
 
 #### Lista Detalhada SQL Server:
 
 https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
 
-
 # Cap. 7 - Instructions CREATE / INSERT 1/2
 (SQLite)
-_Homework_01 and another diagrams
+_ Homework_01 
+_ https://www.sqlitetutorial.net/sqlite-sample-database/ (invoice e invoice_item)
 
 ## CREATE
 CREATE TABLE table_name
@@ -105,6 +102,9 @@ CONVERT
 --
 /* 
 */
+
+## Datetime functions
+https://www.sqlite.org/lang_datefunc.html
 
 # Cap.11 - ALTER TABLE
 # Cap.12 - SQL Functions
