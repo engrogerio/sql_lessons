@@ -11,8 +11,8 @@ https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?vi
 
 # Cap. 7 - Instructions CREATE / INSERT 1/2
 (SQLite)
-_ Homework_01 
-_ https://www.sqlitetutorial.net/sqlite-sample-database/ (invoice e invoice_item)
+- Homework_01 
+- https://www.sqlitetutorial.net/sqlite-sample-database/ (invoice e invoice_item)
 
 ## CREATE
 CREATE TABLE table_name
