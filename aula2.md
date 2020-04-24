@@ -39,7 +39,9 @@ VALUES(values...)
 
 ### Constraints for table creation
 https://www.tutorialspoint.com/sqlite/sqlite_constraints.htm
+
 https://www.sqlitetutorial.net/sqlite-foreign-key/
+
 - NOT NULL 
 - FOREIGNKEY 
 - PRIMARY KEY 
