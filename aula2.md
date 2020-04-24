@@ -11,24 +11,27 @@ https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?vi
 
 # Cap. 7 - Instructions CREATE / INSERT 1/2
 (SQLite)
-- Homework_01 
+- Normalização Exercício
 - https://www.sqlitetutorial.net/sqlite-sample-database/ (invoice e invoice_item)
+- Homework_01
 
 ## CREATE
-CREATE TABLE table_name
+- CREATE TABLE table_name
 (field1 type, field2 type)
+- id integer PRIMARY KEY AUTOINCREMENT
 
 ## INSERT 
-INSERT INTO TABLE (fields,..)
+- INSERT INTO TABLE (fields,..)
+
 VALUES(values...)
 
 # Cap. 8 - Instructions SELECT 1/2
 (W3 site examples)
 
-SELECT * FROM
-SELECT field1, field2
-AS
-SELECT TOP
+- SELECT * FROM
+- SELECT field1, field2
+- AS
+- SELECT TOP
 
 # Cap. 9 - Instructions CREATE / INSERT 2/2 
 
@@ -50,7 +53,7 @@ ON DELETE CASCADE
 DROP TABLE
 
 # Cap. 10 - Instruções SELECT 2/2 
-- SELECT DISTICT
+- SELECT DISTINCT
 - SELECT TOP PERCENT
 
 ## Filters
@@ -85,8 +88,8 @@ DROP TABLE
 CASE WHEN
 
 ## Conversions
-CAST
-CONVERT
+- CAST
+- CONVERT
 
 ## Joins
 - INNER JOIN
