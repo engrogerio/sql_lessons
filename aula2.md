@@ -21,9 +21,11 @@ https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?vi
 - id integer PRIMARY KEY AUTOINCREMENT
 
 ## INSERT 
-- INSERT INTO TABLE (fields,..)
+- INSERT INTO table (fields,..)
 
 VALUES(values...)
+
+- INSERT INTO table FROM SELECT
 
 # Cap. 8 - Instructions SELECT 1/2
 (W3 site examples)
@@ -31,14 +33,13 @@ VALUES(values...)
 - SELECT * FROM
 - SELECT field1, field2
 - AS
-- SELECT TOP
+- SELECT LIMIT (TOP no SQL Server)
 
 # Cap. 9 - Instructions CREATE / INSERT 2/2 
 
 ### Constraints for table creation
 https://www.tutorialspoint.com/sqlite/sqlite_constraints.htm
-
-- AUTOINCREMENT 
+https://www.sqlitetutorial.net/sqlite-foreign-key/
 - NOT NULL 
 - FOREIGNKEY 
 - PRIMARY KEY 
