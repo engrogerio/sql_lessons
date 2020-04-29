@@ -1,48 +1,53 @@
 # Cap. 6 - Tipos de dados
 * Garantir integridade dos dados.
-* Reduzir tamanho do armazenamento
+* Reduzir tamanho do armazenamento.
 
-https://www.teach-ict.com/gcse_new/databases/terminology/miniweb/images/table.gif
-
-#### Lista Básica:
-
-https://www.w3schools.com/sql/sql_datatypes.asp
+#### SQLite
+https://www.sqlitetutorial.net/sqlite-data-types/
 
 #### Lista Detalhada SQL Server:
 
 https://docs.microsoft.com/pt-br/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
 
-
 # Cap. 7 - Instructions CREATE / INSERT 1/2
+(SQLite)
+- Normalização Exercício
+- https://www.sqlitetutorial.net/sqlite-sample-database/ (invoice e invoice_item)
+- Homework_01
 
 ## CREATE
-CREATE TABLE table_name
+- CREATE TABLE table_name
 (field1 type, field2 type)
+- id integer PRIMARY KEY AUTOINCREMENT
 
 ## INSERT 
-INSERT INTO TABLE (fields,..)
+- INSERT INTO table (fields,..)
+
 VALUES(values...)
+
+- INSERT INTO table FROM SELECT
 
 # Cap. 8 - Instructions SELECT 1/2
 (W3 site examples)
 
-SELECT * FROM
-SELECT field1, field2
-AS
-SELECT TOP
+- SELECT * FROM
+- SELECT field1, field2
+- AS
+- SELECT LIMIT (TOP no SQL Server)
 
 # Cap. 9 - Instructions CREATE / INSERT 2/2 
 
 ### Constraints for table creation
 https://www.tutorialspoint.com/sqlite/sqlite_constraints.htm
 
-AUTOINCREMENT
-NOT NULL
-FOREIGNKEY
-PRIMARY KEY
-DEFAULT
-UNIQUE
-CHECK
+https://www.sqlitetutorial.net/sqlite-foreign-key/
+
+- NOT NULL 
+- FOREIGNKEY 
+- PRIMARY KEY 
+- DEFAULT 
+- UNIQUE 
+- CHECK 
 
 ### Cascade
 ON DELETE CASCADE
@@ -51,54 +56,61 @@ ON DELETE CASCADE
 DROP TABLE
 
 # Cap. 10 - Instruções SELECT 2/2 
-SELECT DISTICT
-SELECT TOP PERCENT
+- SELECT DISTINCT
+- SELECT TOP PERCENT
 
 ## Filters
-Where
-And, Or, Not
-Null Values
-isnull
-Like
-Wildcards
-In
-Between
-Having
-Exists
-Any, All
+- WHERE
+- AND
+- OR
+- NOT
+- Null Values
+- ISNULL
+- LIKE
+- Wildcards
+- IN
+- BETWEEN
+- HAVING
+- EXISTS
+
 
 ## Math operations
 *, /, +, - 
 < > <> =, >=, <=
 
 ## Order
-Order By
+- ORDER BY
+- DESC
 
 ## Agregators / Grouping / summary
-Group By
-Min and Max
-Count, Avg, Sum
+- GROUP BY
+- MIN and MAX
+- COUNT, AVG, SUM
 
 ## Conditionals
-Case When
+CASE WHEN
 
 ## Conversions
-Cast
-Convert
+- CAST
+- CONVERT
 
 ## Joins
-Inner Join
-Left Join
-Right Join
-Full Join
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL JOIN
 
 ## Unions
-Union
-Union all
+- UNION
+- UNION ALL
 
 ## Comments
 --
 /* 
 */
 
+## Datetime functions
+https://www.sqlite.org/lang_datefunc.html
+
 # Cap.11 - ALTER TABLE
+# Cap.12 - SQL Functions
